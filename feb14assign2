@@ -1,0 +1,12 @@
+n=int(input('enter a number:'))
+sum=0
+while(n>0):
+    d=n%10
+    sum=sum+d
+    n=n//10
+    print('the total sum of digits is:',sum)
+ output
+ enter a number:252
+the total sum of digits is: 2
+the total sum of digits is: 7
+the total sum of digits is: 9
